@@ -1,17 +1,3 @@
-// function onearea(){
-//     var x = (document.getElementById("input1").value);
-//     var y = (document.getElementById("input2").value);
-//     let area = triArea(x , y);
-//     console.log(area);
-//     document.getElementById("answer").value =area;
-    
-//     function triArea(base , hight){
-//      let y = base * hight;
-//      let area = y / 2;
-//      return area;
-//     }}
-
-
  var currentnolocation = "";
  var secondarynolocation = "";
 
