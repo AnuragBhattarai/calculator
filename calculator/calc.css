@@ -1,0 +1,73 @@
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(66, 5, 5));
+    background-repeat: no-repeat;
+}
+#calc{
+    margin-left: 80vh;
+    margin-right:80vh ;
+    position: absolute;
+    margin-top: 10vh;
+    background-color: rgb(2, 73, 73);
+}
+#calckeys button:active{
+    background-color: aqua;
+    box-shadow: 0 5px red;
+}
+#calckeys button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+#calckeys button{
+    font-size: 30px;
+    padding: 40px;
+}
+#calckeys{
+    /* margin-left: 80vh;
+    margin-right: 80vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 20px;
+}
+#displayvalue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 7vh;
+    padding-right:7vh ;
+    font-size: 20px;
+}
+#clearbtn:active{
+    background-color: aqua;
+    box-shadow: 0 1px blue;
+}
+#clearbtn{
+    padding: 10px;
+    background-color: rgb(14, 180, 22);
+}
+#displaysymbolvalue{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-right: 50px;
+    font-size: 1.5vh;
+    font-weight: 700;
+    background-color: rgb(2, 32, 32);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+#displaysymbol{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+#displaydiv{
+    padding: 10px;
+    margin-left: 15px;
+}
